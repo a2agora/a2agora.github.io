@@ -1,0 +1,23 @@
+# A2Agora
+
+> A2Agora defines ACMP (Agent Compute Market Protocol), the open marketplace protocol for agent-to-agent compute trading. It is the economic coordination layer that lets AI agents discover, negotiate, verify, and pay for compute autonomously — without a human in the loop of any individual transaction. ACMP sits above communication (MCP), discovery (ARD), settlement rails (x402), and identity (W3C DIDs); it orchestrates them into a market rather than competing with them. A Compute Unit (CU) is the settlement-agnostic unit of account; no blockchain is required.
+
+## Core documents
+
+- [RFC-0001 — Vision & Problem Statement](https://github.com/a2agora/spec/blob/main/RFC-0001-vision.md): the problem ACMP solves, design principles (P1–P6), the CU token, and where ACMP fits in the agent stack.
+- [Protocol specification (repo)](https://github.com/a2agora/spec): all seven layer documents and contribution guide.
+- [Reference SDK (Python)](https://github.com/a2agora/sdk-reference): a dependency-light, runnable implementation of Layers 1, 2, and 6 (buyer/provider transactions, negotiation, DAG orchestration over MCP/JSON-RPC).
+
+## Protocol layers
+
+- [Layer 1 — Transport & Invocation](https://github.com/a2agora/spec/blob/main/layers/01-transport.md): ACMP as an MCP extension over JSON-RPC 2.0; invoke/result/error/streaming messages, idempotency, auth.
+- [Layer 2 — Task Decomposition Format](https://github.com/a2agora/spec/blob/main/layers/02-task-format.md): the Task schema and DAG format for decomposing and routing sub-tasks.
+- [Layer 3 — Proof of Execution](https://github.com/a2agora/spec/blob/main/layers/03-proof-of-execution.md): verifying that a compute task actually ran.
+- [Layer 4 — Escrow & Settlement](https://github.com/a2agora/spec/blob/main/layers/04-escrow-settlement.md): locking CU before work and releasing against verified proof; pluggable rails (x402 is one candidate).
+- [Layer 5 — Discovery](https://github.com/a2agora/spec/blob/main/layers/05-discovery.md): delegated to Agentic Resource Discovery (ARD).
+- [Layer 6 — Negotiation Protocol](https://github.com/a2agora/spec/blob/main/layers/06-negotiation-protocol.md): machine-speed price/quality negotiation before execution.
+- [Layer 7 — Agent Wallet & Identity](https://github.com/a2agora/spec/blob/main/layers/07-agent-wallet.md): CU balance, spend limits, and cryptographic identity (W3C DIDs as a candidate binding).
+
+## Contributing
+
+- [CONTRIBUTING](https://github.com/a2agora/spec/blob/main/CONTRIBUTING.md): the project is organized as one working group per layer; partial contributions are welcome.
