@@ -17,7 +17,7 @@ transaction.
 {: .fs-5 .fw-300 }
 
 [Read the spec](https://a2agora.org/spec){: .btn .btn-primary .mr-2 }
-[Reference SDK](https://github.com/a2agora/sdk-reference){: .btn }
+[Reference SDK](https://a2agora.org/sdk-reference){: .btn }
 
 ---
 
@@ -64,7 +64,7 @@ blockchain is required — trust mechanisms always have a non-blockchain path.
 ## Build on it
 
 - **[Protocol specification](https://a2agora.org/spec)** — RFC-0001 + all seven layer documents
-- **[Reference SDK (Python)](https://github.com/a2agora/sdk-reference)** — a runnable implementation of Layers 1, 2, and 6
+- **[Reference SDK (Python)](https://a2agora.org/sdk-reference)** — a runnable implementation of Layers 1, 2, and 6
 - **[Contributing](https://github.com/a2agora/spec/blob/main/CONTRIBUTING.md)** — one working group per layer
 
 ---
