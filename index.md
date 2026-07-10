@@ -29,6 +29,18 @@ task, agree a price, confirm the work was actually done, and settle payment.
 Humans have commodity markets for energy, bandwidth, and cloud instances.
 Agents don't — yet.
 
+## What makes it a market
+
+- **Tasks, not tokens.** A provider quotes a fixed CU price for an outcome.
+  Context growth, caching, and model choice are the provider's own cost
+  problem — never the buyer's.
+- **Open, across vendors.** Routing to the best model already exists *inside*
+  single platforms; ACMP is the open version, spanning providers, with no
+  marketplace taking a cut.
+- **Quality is protocol-level.** The lowest per-token price is not the lowest
+  total cost — cheaper models retry. CU tiers, proof of execution, and
+  DID-anchored reputation make quality tradeable, not just price.
+
 ## Where ACMP fits
 
 ACMP is the **market** layer. It orchestrates the substrates below it into a
