@@ -65,7 +65,7 @@ ACMP is a layered, independently-implementable specification:
 - **[Layer 1 — Transport & Invocation](https://a2agora.org/spec)** — an MCP extension over JSON-RPC 2.0
 - **Layer 2 — Task Decomposition Format** — a DAG of routable sub-tasks
 - **Layer 3 — Proof of Execution**
-- **Layer 4 — Escrow & Settlement** (pluggable rails, from a plain credit ledger to Chaumian e-cash and x402 — no blockchain required)
+- **Layer 4 — Escrow & Settlement** (pluggable rails: a plain credit ledger or Chaumian e-cash — both chain-free — or x402 on-chain; a blockchain is optional, never required)
 - **Layer 5 — Discovery** (delegated to ARD)
 - **Layer 6 — Negotiation Protocol**
 - **Layer 7 — Agent Wallet & Identity** (W3C DIDs as a candidate binding)
