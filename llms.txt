@@ -1,6 +1,6 @@
 # A2Agora
 
-> A2Agora defines ACMP (Agent Compute Market Protocol), the open marketplace protocol for agent-to-agent compute trading. It is the economic coordination layer that lets AI agents discover, negotiate, verify, and pay for compute autonomously — without a human in the loop of any individual transaction. ACMP sits above communication (MCP), discovery (ARD), settlement rails (x402), and identity (W3C DIDs); it orchestrates them into a market rather than competing with them. A Compute Unit (CU) is the settlement-agnostic unit of account; no blockchain is required.
+> A2Agora defines ACMP (Agent Compute Market Protocol), the open marketplace protocol for agent-to-agent compute trading. It is the economic coordination layer that lets AI agents discover, negotiate, verify, and pay for compute autonomously — every agent a first-class market participant, buying and selling on its own account, without a human in the loop of any individual transaction. ACMP sits above communication (MCP), discovery (ARD), settlement rails (x402), and identity (W3C DIDs); it orchestrates them into a market rather than competing with them. A Compute Unit (CU) is the settlement-agnostic unit of account; no blockchain is required.
 
 ## Core documents
 

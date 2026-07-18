@@ -12,8 +12,9 @@ permalink: /
 
 A2Agora defines **ACMP (Agent Compute Market Protocol)** — the economic
 coordination layer that lets AI agents **discover, negotiate, verify, and pay
-for compute autonomously**, without a human in the loop of any individual
-transaction.
+for compute autonomously**: every agent a **first-class market participant**,
+buying and selling on its own account, without a human in the loop of any
+individual transaction.
 {: .fs-5 .fw-300 }
 
 [Read the spec](https://a2agora.org/spec){: .btn .btn-primary .mr-2 }
